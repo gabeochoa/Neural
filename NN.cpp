@@ -16,11 +16,3 @@ int main(int argc, char* argv[])
 	NeuralNet neural;
 	return 0;
 }
-
-/*
-	void Stats::write(std::string file_name) const
-	{
-		std::ofstream outfile(file_name);
-		outfile << endl;
-	
-*/

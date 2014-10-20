@@ -41,3 +41,10 @@ inline double NeuralNet::transformfunc(double x)
 {
 	return 1/(1+exp(-x));
 }
+/*
+	void Stats::write(std::string file_name) const
+	{
+		std::ofstream outfile(file_name);
+		outfile << endl;
+	
+*/
